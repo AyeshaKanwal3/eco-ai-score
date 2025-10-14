@@ -26,17 +26,21 @@ const Index = () => {
       <header className="relative z-10 py-8 px-4">
         <div className="max-w-7xl mx-auto text-center">
           <div className="flex items-center justify-center gap-3 mb-4">
-            <Sparkles className="w-8 h-8 text-primary animate-pulse-slow" />
-            <h1 className="text-5xl font-bold glow-text">
-              ReimagineWeb
+            <Sparkles className="w-10 h-10 text-primary animate-pulse-slow" />
+            <h1 className="text-6xl font-bold glow-text">
+              The AI EcoRank Studio
             </h1>
-            <Sparkles className="w-8 h-8 text-secondary animate-pulse-slow" />
+            <Sparkles className="w-10 h-10 text-accent animate-pulse-slow" />
           </div>
-          <p className="text-xl text-muted-foreground">
-            AI EcoRank Studio 🌿
+          <p className="text-2xl font-semibold mb-2" style={{
+            background: 'linear-gradient(135deg, hsl(160 85% 65%), hsl(200 90% 60%))',
+            WebkitBackgroundClip: 'text',
+            WebkitTextFillColor: 'transparent'
+          }}>
+            Where SEO meets Sustainability 🌿
           </p>
-          <p className="text-sm text-muted-foreground mt-2">
-            Analyze SEO, AI Visibility, Eco Impact & UX Quality
+          <p className="text-base text-muted-foreground mt-3 max-w-2xl mx-auto">
+            Analyze. Reimagine. Rank Green. — Comprehensive AI-powered analysis of SEO, AI Visibility, Eco Impact, UX Quality & Compatibility
           </p>
         </div>
       </header>
@@ -60,17 +64,13 @@ const Index = () => {
       </main>
 
       {/* Footer */}
-      <footer className="relative z-10 py-6 text-center text-sm text-muted-foreground">
-        <p>
+      <footer className="relative z-10 py-8 text-center text-sm">
+        <p className="text-muted-foreground mb-2">
           Powered by{" "}
-          <a 
-            href="https://reimagineweb.dev" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="text-primary hover:text-secondary transition-colors"
-          >
-            ReimagineWeb.dev
-          </a>
+          <span className="text-primary font-semibold">Rank AI</span> ⚡
+        </p>
+        <p className="text-xs text-muted-foreground/70">
+          Built with sustainability in mind • Carbon-conscious analysis • Future-ready insights
         </p>
       </footer>
     </div>
