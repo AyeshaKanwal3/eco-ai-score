@@ -107,27 +107,21 @@ export const AnalysisForm = ({ onAnalyze, isAnalyzing, setIsAnalyzing }: Analysi
 
           <Button 
             type="submit" 
-            size="lg"
-            className="w-full bg-primary hover:bg-primary/90 text-primary-foreground glow-border font-semibold text-base h-14"
+            className="w-full bg-primary hover:bg-primary/90 text-primary-foreground glow-border"
             disabled={isAnalyzing}
           >
             {isAnalyzing ? (
               <>
-                <Loader2 className="w-5 h-5 mr-2 animate-spin" />
-                Analyzing Your Website...
+                <Loader2 className="w-4 h-4 mr-2 animate-spin" />
+                Analyzing...
               </>
             ) : (
               <>
-                <Rocket className="w-5 h-5 mr-2" />
-                Start My Free Analysis 🚀
+                <Rocket className="w-4 h-4 mr-2" />
+                Start Analysis
               </>
             )}
           </Button>
-          {!isAnalyzing && (
-            <p className="text-xs text-center text-muted-foreground mt-3">
-              Free • No credit card • Takes &lt;60s
-            </p>
-          )}
         </form>
       </div>
     </div>
