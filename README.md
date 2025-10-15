@@ -1,59 +1,58 @@
-# 🌿 ReimagineWeb – AI EcoRank Studio
+AI EcoRank Studio: When the Web Seeks to Breathe
+AI EcoRank Studio is a revolutionary platform that assesses websites not only for their performance and discoverability but also for their environmental impact and AI friendliness. Our mission is to promote a digital ecosystem where sustainability and intelligent accessibility go hand in hand.
 
-> **“Analyze. Optimize. Reimagine.”**  
-> The first **eco-friendly AI visibility analyzer** that helps websites rank better across AI models — while staying planet-conscious 🌎.
+Overview
+In an era where billions of websites compete for attention, the digital footprint of each page matters. Every visit consumes energy, produces carbon emissions, and adds to digital waste. Simultaneously, AI systems rely on well-structured, accessible data to serve meaningful content.
 
----
+AI EcoRank Studio evaluates websites based on:
 
-## 🚀 Overview
+Eco-friendliness: How optimized and lightweight is the website?
 
-**ReimagineWeb – AI EcoRank Studio** is a full-stack AI-powered web analyzer built for hackathons.  
-It audits your website’s **SEO**, **AI discoverability**, **compatibility**, **eco impact**, and **UX quality**, then suggests instant improvements — or lets you **“Reimagine” your site via [ReimagineWeb.dev](https://reimagineweb.dev)**.
+AI Discoverability: How easily can AI systems read and interpret the site?
 
-### 🎯 Goal
-> To empower every website to become **eco-friendly, AI-visible, and performance-optimized** — across every niche of eCommerce.
+Compatibility: How well does the site work across browsers and devices?
 
----
+User Experience: How accessible and engaging is the site for humans?
 
-## 🧭 Features
+By highlighting strengths and areas for improvement, our platform helps creators build websites that are sustainable, AI-ready, and user-friendly.
 
-| Category | What It Does | Stack / Approach |
-|-----------|--------------|------------------|
-| 🔍 **SEO Analyzer** | Extracts meta tags, titles, headings, and keyword density | Node.js + Cheerio |
-| 🤖 **AI GEO (AI Visibility)** | Evaluates how ChatGPT, Gemini, and Copilot would “understand” your site | Local rule-based scoring |
-| 💻 **Compatibility Test** | Checks load speed, mobile responsiveness, and broken links | Puppeteer |
-| 🌱 **Eco Impact** | Estimates page CO₂ footprint and media efficiency | Axios + DOM parsing |
-| 🎨 **UX Audit** | Analyzes heading hierarchy, alt text usage, readability | Cheerio + regex |
-| 🚀 **ReimagineWeb Integration** | Suggests instant redesign if your score < 70% | Smart CTA module |
+Features
+Performance Scoring: Comprehensive scores across key metrics like SEO, AI optimization, compatibility, eco-impact, and UX.
 
----
+Detailed Analysis: Breakdown of each metric with specific insights (e.g., missing H1 tags, page weight, CO₂ emissions).
 
-## 🖼️ UI Highlights
+Actionable Recommendations: Suggestions to improve website efficiency, discoverability, and sustainability.
 
-- Eco-futuristic dark theme with green & blue gradients  
-- Animated loading (“Scanning your digital footprint...”)  
-- Interactive score cards (SEO, AI, UX, Eco, Compatibility)  
-- Radar & bar charts for insights  
-- Auto “Reimagine It” CTA when site underperforms  
-- Shareable result card: `My AI EcoRank 🌿 92%`
+Visual Radar Chart: Intuitive visualization of overall and component scores.
 
----
+Transparency & Education: Promotes digital ethics, AI transparency, and sustainable design choices.
 
-## 🧩 Tech Stack
+How It Works
+Enter your website URL into the platform.
 
-| Layer | Technologies |
-|--------|---------------|
-| **Frontend** | React + Vite + Tailwind + Framer Motion + Recharts |
-| **Backend** | Node.js + Express + Puppeteer + Cheerio |
-| **Database** | (Optional) Local JSON or SQLite for storing scan history |
-| **Design System** | shadcn/ui + Lucide icons |
-| **Hosting** | Lovable / Render / Railway |
+Receive a detailed report with scores and insights.
 
----
+Use recommendations to optimize your site for performance and environmental impact.
 
-## 🛠️ Setup Instructions
+Re-evaluate as you make improvements to track progress.
 
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/yourusername/ai-ecorank-studio.git
-   cd ai-ecorank-studio
+Why It Matters
+Environmental Impact: Reduce digital waste and energy consumption.
+
+AI Compatibility: Facilitate AI systems in understanding and recommending your content.
+
+Better User Experience: Faster, cleaner websites that users love.
+
+Digital Ethics: Encourage responsible and sustainable web development.
+
+Contributing
+We welcome contributions! Whether you want to improve scoring algorithms, add new metrics, or enhance the UI, your input helps create a more sustainable internet.
+
+Fork the repository
+
+Create your feature branch
+
+Open a pull request with your improvements
+
+License
+This project is open-source. See the LICENSE file for details.
