@@ -7,11 +7,8 @@ In an era where billions of websites compete for attention, the digital footprin
 AI EcoRank Studio evaluates websites based on:
 
 Eco-friendliness: How optimized and lightweight is the website?
-
 AI Discoverability: How easily can AI systems read and interpret the site?
-
 Compatibility: How well does the site work across browsers and devices?
-
 User Experience: How accessible and engaging is the site for humans?
 
 By highlighting strengths and areas for improvement, our platform helps creators build websites that are sustainable, AI-ready, and user-friendly.
